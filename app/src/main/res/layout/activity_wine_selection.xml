@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/Vino"
+        style="@style/Texto1"
+        android:id="@+id/TextView1"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:id="@+id/Corcho1"
+        android:src="@mipmap/corcho1xhdpi"
+        android:layout_below="@id/TextView1"
+        android:layout_marginLeft="60dp"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:id="@+id/Corcho2"
+        android:src="@mipmap/corcho2xhdpi"
+        android:layout_below="@id/TextView1"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:id="@+id/Corcho3"
+        android:src="@mipmap/corcho3xhdpi"
+        android:layout_below="@id/TextView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:id="@+id/Corcho4"
+        android:src="@mipmap/corcho4xmdpi"
+        android:layout_below="@+id/Corcho1"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageView
+        android:id="@+id/Corcho5"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Corcho2"
+        android:src="@mipmap/corcho5xhdpi"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/Corcho6"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Corcho3"
+        android:src="@mipmap/corcho6xhdpi"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+
+    <ImageView
+        android:id="@+id/Corcho7"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Corcho4"
+        android:src="@mipmap/corcho7xhdpi"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageView
+        android:id="@+id/Corcho8"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Corcho5"
+        android:src="@mipmap/corcho8xhdpi"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/Corcho9"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Corcho6"
+        android:src="@mipmap/corcho9xhdpi"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+
+</RelativeLayout>
