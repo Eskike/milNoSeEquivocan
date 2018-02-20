@@ -5,4 +5,18 @@
     <string name="N1">Nº de silla</string>
     <string name="N2">Nº de mesa</string>
     <string name="Vino">Seleccione su vino:</string>
+
+    <!-- Strings para activity_aboutus.xml -->
+    <string name="Aboutus">Sobre nosotros</string>
+    <string name="equipo">Nuestro equipo</string>
+    <string name="contentAbout">Contra viento y marea, ordenadores a pedales y mucha paciencia, logramos superar la 
+        frustración para acabar esta aplicación. Muchas gracias por utilizarla y confiar en nosotros</string>
+    <string name="jesus">Jesús "Chus"</string>
+    <string name="dani">Daniel "Dani"</string>
+    <string name="dario">Darío </string>
+    <string name="javi">Javi "AckeeSinger"</string>
+    <string name="manu">Manuel "Manu"</string>
+    <string name="miriam">Miriam "Svan"</string>
+    <string name="sergio">Sergio</string>
+    <string name="tino">Tino "Brionnes"</string>
 </resources>
