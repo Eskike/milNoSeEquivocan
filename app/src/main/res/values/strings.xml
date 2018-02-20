@@ -26,4 +26,5 @@
     <string name="menciones_content">Gracias al Ayuntamiento de Alcázar de San Juan, al Centro de Empresas, a la Junta de
     Comunidades de Castilla La Mancha, y al Fondo Europeo de Garantía Juvenil por hacer posible este genial curso de creación
     de Apps Android</string>
+    <!-- Aquí acaban las strings de activity_aboutus.xml -->
 </resources>
