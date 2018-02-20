@@ -14,9 +14,9 @@
         android:layout_weight="0">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
             android:src="@mipmap/ic_account_circle_black_48dp"
             android:layout_gravity="center" />
 
@@ -28,23 +28,27 @@
             style="@style/Texto1"/>
 
         <EditText
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:hint="@string/N1"/>
+            android:hint="@string/N1"
+            android:id="@+id/NSilla"/>
 
         <EditText
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:hint="@string/N2"/>
+            android:hint="@string/N2"
+            android:id="@+id/NMesa"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="80dp"
-            android:text="Iniciar"/>
+            android:text="Iniciar"
+            android:onClick="bIniciar"
+            android:id="@+id/buttonIniciar"/>
     </LinearLayout>
 
     <RelativeLayout
@@ -55,7 +59,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About us"
+            android:text="Sobre Nosotros"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="20dp"
