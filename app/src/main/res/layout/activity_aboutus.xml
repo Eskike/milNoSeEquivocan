@@ -92,5 +92,39 @@
             android:layout_height="2dp"
             android:background="#a0041c"/>
 
+        <TextView
+            style="@style/Text_aboutus_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nuestroprofe"/>
+        <TextView
+            style="@style/Text_aboutus_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dudasres"/>
+        <TextView
+            style="@style/Text_aboutus_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kike"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_height="2dp"
+            android:background="#a0041c"/>
+
+        <TextView
+            style="@style/Text_aboutus_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menciones"/>
+        <TextView
+            style="@style/Text_aboutus_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menciones_content"/>
+
     </LinearLayout>
 </ScrollView>

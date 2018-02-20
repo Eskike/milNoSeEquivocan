@@ -19,4 +19,11 @@
     <string name="miriam">Miriam "Svan"</string>
     <string name="sergio">Sergio</string>
     <string name="tino">Tino "Brionnes"</string>
+    <string name="nuestroprofe">¡Y nuestro profe!</string>
+    <string name="kike">Kike Lizano</string>
+    <string name="dudasres">Que respondió a todas nuestras cansinas dudas sin quejarse</string>
+    <string name="menciones">Menciones especiales</string>
+    <string name="menciones_content">Gracias al Ayuntamiento de Alcázar de San Juan, al Centro de Empresas, a la Junta de
+    Comunidades de Castilla La Mancha, y al Fondo Europeo de Garantía Juvenil por hacer posible este genial curso de creación
+    de Apps Android</string>
 </resources>
