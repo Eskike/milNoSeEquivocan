@@ -21,6 +21,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_aboutus"></activity>
+
+        <activity android:name=".WineSelection">
+            android:label
+        </activity>
+
     </application>
 
 </manifest>

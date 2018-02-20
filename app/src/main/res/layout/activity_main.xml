@@ -44,8 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="80dp"
-            android:text="Iniciar"
-            android:background="@drawable/shape2"/>
+            android:text="Iniciar"/>
     </LinearLayout>
 
     <RelativeLayout
@@ -61,8 +60,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="20dp"
             android:onClick="bInfo"
-            android:id="@+id/buttonInfo"
-            />
+            android:id="@+id/buttonInfo"/>
 
     </RelativeLayout>
 </LinearLayout>

@@ -9,7 +9,7 @@
     </style>
 
     <style name="Texto1">
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">20dp</item>
         <item name="android:textColor">#000</item>
         <item name="android:padding">15dp</item>
 
