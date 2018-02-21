@@ -9,11 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-
-        </activity>
-        <activity android:name=".SplashWine" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".SplashWine"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,16 +21,15 @@
         </activity>
         <activity
             android:name=".activity_aboutus"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
-        <activity android:name=".WineSelection"
-            android:label="@string/Actividad2">
-        </activity>
-
+        <activity
+            android:name=".WineSelection"
+            android:label="@string/Actividad2"></activity>
+        <activity android:name=".valoracionVino1"></activity>
     </application>
 
 </manifest>
