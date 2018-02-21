@@ -27,4 +27,8 @@
     Comunidades de Castilla La Mancha, y al Fondo Europeo de Garantía Juvenil por hacer posible este genial curso de creación
     de Apps Android</string>
     <!-- Aquí acaban las strings de activity_aboutus.xml -->
+
+
+    <!-- Strings para el splash -->
+    <string name="bienvenido">¡Eres UNO de los 1000!</string>
 </resources>
