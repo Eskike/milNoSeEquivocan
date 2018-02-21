@@ -22,8 +22,8 @@
         </activity>
         <activity android:name=".activity_aboutus"></activity>
 
-        <activity android:name=".WineSelection">
-            android:label
+        <activity android:name=".WineSelection"
+            android:label="@string/Actividad2">
         </activity>
 
     </application>
