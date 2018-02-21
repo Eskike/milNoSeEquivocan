@@ -34,7 +34,7 @@ public class SplashWine extends Activity {
             }
 
 
-        },4000);
+        },2500);
 
     }
 
