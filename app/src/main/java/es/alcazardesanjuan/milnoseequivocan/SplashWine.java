@@ -2,9 +2,11 @@ package es.alcazardesanjuan.milnoseequivocan;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class SplashWine extends Activity {
 
@@ -12,6 +14,16 @@ public class SplashWine extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_wine);
+        //ahi
+        ImageView img = (ImageView) findViewById(R.id.cargandoView);
+        img.setBackgroundResource(R.drawable.cargando);
+
+
+        //ahi2
+        AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
+        frameAnimation.start();
+
+
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -25,4 +37,6 @@ public class SplashWine extends Activity {
         },4000);
 
     }
+
+
 }
