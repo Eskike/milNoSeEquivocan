@@ -8,10 +8,10 @@
     tools:context="es.alcazardesanjuan.milnoseequivocan.MainActivity">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             android:layout_marginTop="25dp"
-            android:src="@mipmap/ic_account_circle_black_48dp"
+            android:src="@drawable/iniciosesioncopa"
             android:layout_gravity="center" />
 
         <TextView
@@ -22,7 +22,6 @@
             style="@style/Texto1"/>
 
         <EditText
-            android:id="@+id/username"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -50,10 +49,13 @@
             android:layout_marginTop="60dp"
             android:background="@drawable/shape2"
             android:text="Iniciar" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/buttonInfo"
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
@@ -61,5 +63,6 @@
             android:background="@drawable/shape2"
             android:onClick="bInfo"
             android:text="Sobre nosotros" />
+    </RelativeLayout>
 
 </LinearLayout>
