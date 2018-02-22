@@ -32,6 +32,10 @@
         <activity android:name=".valoracionVino1" android:label="Valoraciones">
 
         </activity>
+        <activity android:name=".PopLeyenda"
+            android:theme="@style/AppTheme.CustomTheme">
+
+        </activity>
 
     </application>
 
