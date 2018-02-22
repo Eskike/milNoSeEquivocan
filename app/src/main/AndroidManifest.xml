@@ -36,6 +36,10 @@
             android:theme="@style/AppTheme.CustomTheme">
 
         </activity>
+        <activity android:name=".PopVista"
+            android:theme="@style/AppTheme.CustomTheme">
+
+        </activity>
 
     </application>
 

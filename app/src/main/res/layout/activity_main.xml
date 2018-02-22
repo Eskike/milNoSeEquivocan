@@ -49,6 +49,12 @@
             android:layout_marginTop="60dp"
             android:background="@drawable/shape2"
             android:text="Iniciar" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prueba valoracion vinos"
+        android:id="@+id/bpruebavinos"
+        android:onClick="pruebavinos"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
