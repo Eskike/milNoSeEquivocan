@@ -129,9 +129,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     edit.putString("username", username);
                     edit.commit();
 
-                    Intent i = new Intent(MainActivity.this, WineSelection.class);
+                    Intent explicit_intent;
+                    explicit_intent = new Intent(MainActivity.this, WineSelection.class);
+                    String auxEdiNombre=user.getText().toString();
+
+                    explicit_intent.putExtra("nombre",auxEdiNombre);
+
                     finish();
-                    startActivity(i);
+                    startActivity(explicit_intent);
                     return json.getString(TAG_MESSAGE);
                 } else {
                     Log.d("Login Failure!", json.getString(TAG_MESSAGE));
