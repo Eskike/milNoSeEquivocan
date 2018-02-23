@@ -27,7 +27,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private EditText user, pass;
     private Button bInfo;
     private Button mSubmit;
-    private Button bPrueba;
+
 
 
     private ProgressDialog pDialog;
@@ -62,7 +62,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         bInfo = (Button) findViewById(R.id.buttonInfo);
         mSubmit = (Button) findViewById(R.id.login);
-        bPrueba = (Button) findViewById(R.id.bpruebavinos);
+
 
 
         // register listeners
@@ -72,10 +72,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Intent activity=new Intent(getApplicationContext(),activity_aboutus.class);
             startActivity(activity);
         }
-    public void pruebavinos (View view){
-        Intent activity=new Intent(getApplicationContext(),valoracionVino1.class);
-        startActivity(activity);
-    }
+
 
 
     @Override
