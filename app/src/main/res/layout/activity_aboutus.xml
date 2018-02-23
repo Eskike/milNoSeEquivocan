@@ -41,7 +41,7 @@
         style="@style/Text_aboutus_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/dani"/>
+        android:text="Dani Elektroduende"/>
 
     <TextView
         style="@style/Text_aboutus_content"
