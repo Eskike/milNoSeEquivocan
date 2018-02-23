@@ -161,9 +161,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             if (file_url != null) {
                 Toast.makeText(MainActivity.this, file_url, Toast.LENGTH_LONG).show();
             }
-            //inicio
 
-            //fin
         }
     }
 
