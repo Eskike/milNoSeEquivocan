@@ -8,9 +8,12 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.apache.http.message.BasicNameValuePair;
@@ -150,14 +153,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         }
 
+        }
+
         protected void onPostExecute(String file_url) {
             // dismiss the dialog once product deleted
             pDialog.dismiss();
             if (file_url != null) {
                 Toast.makeText(MainActivity.this, file_url, Toast.LENGTH_LONG).show();
             }
+            //inicio
+
+            //fin
         }
     }
 
-}
+
 

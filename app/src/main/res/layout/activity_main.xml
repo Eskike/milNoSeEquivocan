@@ -27,7 +27,10 @@
             android:layout_gravity="center"
             android:hint="@string/N1"
             android:id="@+id/username"
-            android:ems="10">
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:inputType="text">
         <requestFocus />
         </EditText>
 
@@ -38,7 +41,8 @@
             android:layout_gravity="center"
             android:hint="@string/N2"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"/>
 
 
         <Button
