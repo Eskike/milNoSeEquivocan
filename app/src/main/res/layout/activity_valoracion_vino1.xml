@@ -15,7 +15,7 @@
 
 
         <ImageView
-            android:layout_width="75dp"
+            android:layout_width="72dp"
             android:layout_height="75dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -24,13 +24,14 @@
 
         </ImageView>
 
-        <RatingBar style="@style/MyRatingBar"
+        <RatingBar
+            android:id="@+id/MyRatingBar"
+            style="@style/MyRatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ratingBar"
-            android:numStars="7"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
-            android:layout_gravity="center" />
+            android:numStars="7" />
 
 
     </LinearLayout>
