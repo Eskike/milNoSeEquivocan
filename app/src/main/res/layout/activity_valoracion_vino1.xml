@@ -39,15 +39,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <Button
-            android:background="@drawable/shape2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Leyenda"
+            android:background="@drawable/botonleyendaxhdpi"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
             android:onClick="bLeyenda"
             android:id="@+id/bPop"/>
+
+        <Button
+            android:layout_width="101dp"
+            android:layout_height="64dp"
+            android:background="@drawable/botonconfirmarxhdpi"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="bConfirmar"
+            android:id="@+id/bConf"/>
     </RelativeLayout>
 
 </LinearLayout>

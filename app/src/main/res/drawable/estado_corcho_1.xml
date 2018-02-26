@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true"
-        android:drawable="@drawable/corchochecked1xhdpi" /> <!-- pressed -->
-    <item android:state_focused="true"
-        android:drawable="@drawable/corcho1xhdpi" /> <!-- focused -->
-    <item android:drawable="@drawable/corcho1xhdpi" /> <!-- default -->
+        <item android:drawable="@drawable/corchochecked1xhdpi"
+            android:state_pressed="true" />
+        <item android:drawable="@drawable/corchochecked1xhdpi"
+            android:state_focused="true" />
+        <item android:drawable="@drawable/corcho1xhdpi" />
+
 </selector>

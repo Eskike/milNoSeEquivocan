@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Usuario</string>
+    <string name="app_name">MilNSE</string>
     <string name="Actividad2">Selección de vino</string>
     <string name="User">Iniciar sesión:</string>
-    <string name="N1">Nº de silla</string>
-    <string name="N2">Nº de mesa</string>
+    <string name="N1">Catador XX</string>
+    <string name="N2">Contraseña</string>
     <string name="Vino">Seleccione su vino:</string>
 
     <!-- Strings para activity_aboutus.xml -->
